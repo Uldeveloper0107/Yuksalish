@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: r;
+    src: url(../Barcha_Yuksalish_maktablari/inter/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(../Barcha_Yuksalish_maktablari/inter/Inter-Bold.ttf);
+}
+body{
+    font-family: r;
+}
+.site{
+    height: 700vh;
+}
+.navbar{
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 60px;
+    align-items: center;
+}
+.navbar ul li a{
+    font-size: 22px;
+    color: orangered;
+    font-family: r;
+    font-weight: 800;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+.showcase{
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title h1{
+    font-size: 35px;
+    font-family: r;
+    text-align: center;
+}
+.img_yuksalish img{ 
+    width: 100%;
+    height: 1000px;
+}
+.title h2{
+    font-size: 40px;
+    color: orangered;
+    position: absolute;
+    top: 250px;
+    width: 50%;
+    font-family: bold;
+    left: 100px;
+}
+.title p{
+    color: orangered;
+    position: absolute;
+    font-size: 60px;
+    font-weight: 900;
+    top: 325px;
+    width: 50%;
+    font-family: bold;
+    left: 100px;
+}
+.title_2 p{
+    color: orangered;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 900;
+    top: 500px;
+    font-family: bold;
+    width: 50%;
+    left: 100px;
+}
+.buttons{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.buttons button{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.buttons button:hover{
+    background-color: white;
+    color: orangered;
+    transition: ease 0.5s;
+}
+#button_two{
+    border: 3px solid orangered;
+    color: orangered;
+    background-color: white;
+}
+#button_two:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.card{
+    width: 320px;
+    height: 120px;
+    border: 3px solid orangered;
+    background-color: orangered;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: white;
+    color: orangered;
+    transition: ease 0.5s;
+}
+.cards{
+    position: absolute;
+    width: 100%;
+    bottom: 120px;
+    display: flex;
+    gap: 80px;
+    bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+#two_card{
+    background-color: rgb(31, 12, 177);
+    border: none;
+}
+#two_card:hover{
+    background-color: orangered;
+    color: white;
+}
+#third_card{
+    background-color: white;
+    color: orangered;
+}
+#third_card:hover{
+    background-color: orangered;
+    color: white;
+    transition: ease 0.5s;
+}
+.container{
+    width: 100%;
+    height: 130vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+.title_m h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    height: 20vh;
+    line-height: 150px;
+    font-family: bold;
+}
+.video_m{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_m video{
+    border: 5px solid orangered;
+    width: 1300px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+.container_2{
+    width: 100%;
+    height: 450vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carousel-inner img{
+    width: 500px;
+    height: 500px;
+}
+.rasmlar{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+}
+.rasmlar img{
+    width: 450px;
+    height: 400px;
+}
+.title_h p{
+    font-size: 40px;
+    font-family: bold;
+    color: orangered;
+    line-height: 100px;
+}
+.container_3{
+    width: 90%;
+    height: 130vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barchasi {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_biz_haqimizda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title_biz_haqimizda p{
+    font-size: 40px;
+    height: 70px;
+    font-family: bold;
+    color: orangered;
+    text-align: center;
+    line-height: 120px;
+}
+.left img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    border: 3px solid orangered;
+}
+.right
+{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.right p{
+    font-size: 20px;
+    text-align: start;
+}
+.button_batafsil button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.button_batafsil button:hoveR{
+    background-color: white;
+    border: 2px solid orangered;
+    color: orangered;
+    font-family: bold;
+}
+.container_4{
+    width: 90%;
+    height: 190vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.rasmlar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 120px;
+    background-color: orangered;
+}
+.title_p{
+    height: 15vh;
+    font-size: 18px;
+    color: orangered;
+    font-family: bold;
+    line-height: 100px;
+}
+#dav{
+    background-color: beige;
+    color: orangered;
+}
+#dz{
+    background-color: green;
+    border: 2px solid lightgreen;
+}
+#dz:hover{
+   color: white; 
+}
+#robo{
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+#q_m{
+    background-color: lightseagreen;
+    border: none;
+}
+#q_m:hover{
+    color: white;
+}
+#futbol{
+    background-color: greenyellow;
+    border: none;
+    color: black;
+}
+#smm{
+    background-color:crimson;
+    border: none;
+}
+#smm:hover{
+    color: white;
+}
+#shax{
+    background-color:darkslateblue;
+    color: white;
+    border: none;
+}
+#shax:hover{
+    color: white;
+}
+#yuksalish{
+    background-color:springgreen;
+    border: none;
+}
+#yuksalish:hoveR{
+    color: white;
+}
+#kitob{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+/* .place{
+    width: 100%;
+    height: 100vh;
+} */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.left_footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.right_footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;   */
+    gap: 50px;
+}
+.logo_yuksalish img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.p_footer p{
+    width: 50%;
+    font-size: 18px;
+    font-family: bold;
+    color: white;
+}
+.h1_tag{
+    width: 100px;
+}
+.h1_tags p{
+    font-size: 20px;
+    font-family: bold;
+    height: 60px;
+    color: white;
+}
+.one_f{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: 40px;
+    margin: 20px;
+}
+
+.linklar {
+    width:200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.linklar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+.linklar ul li a:hover{
+    border-bottom: 2px solid black;
+}
+.linklar a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.card_f img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.two_f{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.h1_tag{
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.card_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_f p{
+    color: white;
+}
+.card_f p:hover{
+    border-bottom: 2px solid black;
+}
